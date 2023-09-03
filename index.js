@@ -15,7 +15,7 @@ const success = (position) => {
     document.cookie = `latitude=${latitude}; path=/WeatherApp/weather-details.html`;
     document.cookie = `longitude=${longitude}; path=/WeatherApp/weather-details.html`;
     setTimeout(() => {
-        window.location.href = "C:\Users\yedur\OneDrive\Desktop\WeatherApp/weather-details.html"
+        window.location.href = "https://yeduruswapna.github.io/WeatherApp//weather-details.html"
         console.log( window.location.href + "weather-details.html");
     },500)
 }
